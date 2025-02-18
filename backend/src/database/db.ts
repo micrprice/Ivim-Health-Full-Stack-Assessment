@@ -15,7 +15,4 @@ db.exec(`
   )
 `);
 
-// Clear the database if there are any records
-// db.exec("DELETE FROM notes");
-
 export default db;

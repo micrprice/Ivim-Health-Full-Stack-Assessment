@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getNotes } from "../api"; // Import the getNotes function from api.ts
+import { getNotes } from "../api";
 
 interface Note {
   id: string;
