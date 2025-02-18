@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getNote, deleteNote } from "../api"; // Import the getNote and deleteNote functions from api.ts
+import { getNote, deleteNote } from "../api";
 
 interface Note {
   id: string;
